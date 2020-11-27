@@ -90,6 +90,7 @@ It mainly has 4 parts. Please not I have created fiddle for each solution. Just 
     order by Hierarchy
     OPTION (MAXRECURSION 0);
 
+**Possible Improvements**
 1. Use of hierarchy data. 
 2. Indexing table on parentId (assuming Id is primary key and already indexed)
 3. Using graph database for traversing type data.
